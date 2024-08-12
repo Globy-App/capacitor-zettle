@@ -1,10 +1,21 @@
 {
-  "appId": "com.example.plugin",
+  "appId": "app.globy.zettle.example",
   "appName": "example",
   "webDir": "dist",
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 0
+    },
+    "CapacitorHttp": {
+      "enabled": true
+    },
+    "Zettle": {
+      "clientID": "your-client-id",
+			"scheme": "zettlelogin",
+			"host": "example"
     }
+  },
+  "server": {
+    "cleartext": true
   }
 }

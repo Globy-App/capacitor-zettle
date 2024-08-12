@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "GlobyZettle",
+    name: "GlobyAppZettle",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "GlobyZettle",
+            name: "GlobyAppZettle",
             targets: ["ZettlePlugin"])
     ],
     dependencies: [
