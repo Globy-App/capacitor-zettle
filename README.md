@@ -1,4 +1,4 @@
-# @globy/zettle
+# @globy-app/zettle
 
 Adds capabilities to use Zettle card readers and process payments with them.
 
