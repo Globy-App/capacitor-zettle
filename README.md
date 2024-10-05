@@ -2,6 +2,9 @@
 
 Adds capabilities to use Zettle card readers and process payments with them.
 
+## Inspiration attribution
+This plugin took great inspiration from [orestis-z/capacitor-zettle](https://github.com/orestis-z/capacitor-zettle).
+
 ## Install
 
 ```bash
