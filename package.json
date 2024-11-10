@@ -1,5 +1,6 @@
 {
   "name": "@globy-app/zettle",
+  "private": false,  
   "version": "0.0.1",
   "description": "Adds capabilities to use Zettle card readers and process payments with them.",
   "main": "dist/plugin.cjs.js",
