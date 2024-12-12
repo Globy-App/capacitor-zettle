@@ -47,6 +47,7 @@ class ZettlePlugin : Plugin() {
         }
 
         zettle?.initialize(clientId, scheme, host, devmode)
+        call?.resolve()
     }
 
     @PluginMethod
@@ -108,10 +109,12 @@ class ZettlePlugin : Plugin() {
     @PluginMethod
     fun logout(call: PluginCall?) {
         zettle?.logout()
+        call?.resolve()
     }
 
     @PluginMethod
     fun openSettings(call: PluginCall?) {
         zettle?.showCardReaderSettings(this.bridge.activity)
+        call?.resolve()
     }
 }
