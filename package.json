@@ -14,7 +14,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "GlobyZettle.podspec"
+    "GlobyAppZettle.podspec"
   ],
   "author": "Bart Westenenk",
   "license": "MIT",
