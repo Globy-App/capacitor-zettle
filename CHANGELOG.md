@@ -1,5 +1,7 @@
 # Main
 
+# 0.0.4
+
 - Export `GlobyAppZettle.podspec` instead of `GlobyZettle.podspec`
 
 # 0.0.3
