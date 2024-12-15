@@ -1,5 +1,9 @@
 # Main
 
+# 0.0.5
+
+- Fix IOS CallbackURL
+
 # 0.0.4
 
 - Export `GlobyAppZettle.podspec` instead of `GlobyZettle.podspec`
