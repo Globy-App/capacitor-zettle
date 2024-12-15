@@ -31,7 +31,7 @@ public class ZettlePlugin: CAPPlugin, CAPBridgedPlugin {
         guard let scheme = getConfig().getString("scheme")
         else { call.reject("Must set a host in the configuration."); return}
 
-        guard let callbackURL = URL(string: host + "://" + scheme) else { return }
+        guard let callbackURL = URL(string: scheme + "://" + host) else { return }
 
         impl.initialize(clientID: clientID, callbackURL: callbackURL, enableDeveloperMode: developerMode ?? false)
     }
